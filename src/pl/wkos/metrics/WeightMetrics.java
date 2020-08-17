@@ -5,9 +5,7 @@ public class WeightMetrics {
     private double grams;
     private double kilograms;
 
-    public WeightMetrics() {
-
-    }
+    public WeightMetrics() {}
 
     public WeightMetrics(double milligrams, double grams, double kilograms) {
         this.milligrams = milligrams;

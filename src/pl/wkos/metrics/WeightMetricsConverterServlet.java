@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/WeightMetricsConverter")
+@WebServlet("/weight-metrics-converter")
 public class WeightMetricsConverterServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String kilograms = request.getParameter("kilograms");

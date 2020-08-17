@@ -5,9 +5,7 @@ public class LengthMetrics {
     private double centimeters;
     private double meters;
 
-    public LengthMetrics() {
-
-    }
+    public LengthMetrics() {}
 
     public LengthMetrics(double milimeters, double centimeters, double meters) {
         this.milimeters = milimeters;
